@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+/* BANNER PRINCIPAL */
+
+body {
+    background-color: #467B64;
+}
+
+.cabecalho-primario {
+    background-color: #000;
+    height: 40px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icones {
+    height: 35px;
+    width: 35px;
+    margin-top: 3px;
+    margin-left: 12px;
+    margin-right: 4px;
+}
+
+.cabecalho-entrar, .cabecalho-sobre {
+    margin-top: 10px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+.icon-about {
+    height: 28px;
+    width: 28px;
+
+    margin-top: 5px;
+    margin-left: 6px;
+    margin-right: 14px;
+}
+
+.cabecalho-titulos {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+
+
+.link-das-paginas {
+    text-decoration: none;
+    color: #444;
+}
+
+.link-das-paginas:hover {
+    color: #888;
+}
+
+.btn-login {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-login:hover {
+    color: #cf6c5b;
+}
+
+/* Banner */
+
+.banner-principal {
+
+    height: 600px;
+    background-image: url(../images/bannernvnvn.png);
+    background-position: center;
+    background-size: cover;
+
+    margin-bottom: 10px;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+.main-content {
+     display: flex; width: 98%; 
+}
+
+.forum-container { 
+    flex-grow: 2;
+    margin-right: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.vermelho {
+    color: #a71132;
+}
+
+.online{
+    color: #25A463
+}
+
+.amarelo{
+    color: #C2C616 
+}
+
+.asides-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.aside {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px; 
+}
+.forum-header, .aside-header {
+    background: #1e4b44;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px 8px 0 0; 
+    margin-bottom: 5px;
+}
+
+.aside-header {
+    margin-bottom: 14px;
+}
+
+.forum-title, .aside-title {
+     margin: 0; 
+}
+.forum-thread {
+    border-bottom: 1px solid #eee;
+    padding: 10px; 
+}
+.forum-thread:last-child {
+     border-bottom: none; 
+}
+.thread-title {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 5px 0; 
+}
+.thread-details {
+    font-size: 12px;
+    color: #666; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 20.2px;
+}

@@ -1,0 +1,80 @@
+* {
+    font-family: Helvetica;
+}
+
+.cabecalho-primario {
+    background-color: #000;
+    height: 40px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icones {
+    height: 35px;
+    width: 35px;
+    margin-top: 3px;
+    margin-left: 12px;
+    margin-right: 4px;
+}
+
+.icon-about {
+    height: 28px;
+    width: 28px;
+
+    margin-top: 5px;
+    margin-left: 6px;
+    margin-right: 14px;
+}
+
+.cabecalho-entrar, .cabecalho-sobre {
+    margin-top: 10px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+.cabecalho-titulos {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f2f2; /* Fundo cinza */
+}
+
+/* Estilo para as células da tabela */
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #444; /* Letras brancas */
+}
+
+th {
+    color: #fff;
+}
+
+td {
+    background: #444;
+    color: rgba(255, 255, 255, .7);
+}
+
+/* Estilo para as células do cabeçalho */
+th {
+    background-color: #333; /* Fundo cinza escuro para o cabeçalho */
+}
