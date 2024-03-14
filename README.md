@@ -2,6 +2,6 @@
 
 Integrantes:
 
-» Luis Eduardo
-» Wesley Matheus
-» Wendel Gomes
+ Luis Eduardo
+| Wesley Matheus
+| Wendel Gomes
